@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> My Mathematics By Anupam</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="main.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+    </head>
+    <body id="bdy">
+      <h1 class="h">Addition</h1>
+      <span class="spn">
+        <label class="lbl">Enter First Number</label>
+        <input type="number" id="firstno" />
+        <br/>
+        <label class="lbl">Enter Second Number</label>
+        <input type="number" id="secondno" />
+        <br/>
+        <input type="button" value="Add" onclick="add()" id="btn" />
+        <label id="lbad"></label>
+      </span>
+
+      <h1 class="h">Substraction</h1>
+      <span class="spn">
+        <label class="lbl">Enter First Number</label>
+        <input type="number" id="num1" />
+        <br/>
+        <label class="lbl">Enter Second Number</label>
+        <input type="number" id="num2" />
+        <br/>
+        <input type="button" value="Substract" onclick="sub()" id="btn" />
+        <label id="lbsub"></label>
+      </span>
+      <span>
+      <h1 class="h">Multiplication</h1>
+      <label class="lbl">Enter First Number</label>
+      <input type="number" id="mul1" />
+      <br/>
+      <label class="lbl">Enter Second Number</label>
+      <input type="number" id="mul2" />
+      <br/>
+      <input type="button" value="Multiply" onclick="mul()" id="btn" />
+      <label id="lbmul"></label>
+      </span>
+
+      <span>
+        <h1 class="h">Division</h1>
+        <label class="lbl">Enter Dividend</label>
+        <input type="number" id="div1" />
+        <br/>
+        <label class="lbl">Enter Divisor</label>
+        <input type="number" id="div2" />
+        <br/>
+        <input type="button" value="Divide" onclick="div()" id="btn" />
+        <label id="lbdiv"></label>
+      </span>
+    </body>
+</html>
